@@ -70,7 +70,7 @@ update msg model =
         Render delta ->
             let
                 speed =
-                    delta / 6
+                    delta / 4
             in
             ( { model
                 | position =
